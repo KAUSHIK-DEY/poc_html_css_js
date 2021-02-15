@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            This is a small business page
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/navbar.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/bootstrap.bundle.min.js">
+            function check()
+            {
+                var x;
+                x=document.getElementsById("fname").value;
+                text="please enter a value greater than"+x;
+                document.getElementById("demo").innerHTML = text;
+
+            }
+        </script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="headeroverlay">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-sm-8">
+                        <ul>
+                        <li class="nav-item">
+                           <img src="images/beep-1@2x.png" alt="small page" height=80px>
+                        </li>
+                        </ul>
+                      </div>
+                     <div class="col-sm-4 px-sm-3 pt-sm-3" style="text-align: end;">
+                         <div>
+                        <img class="pt-sm-1"  style="display: inline;"src="images/profile_close_2@2x.png" alt="profile" height=25px>
+                        <h6 class=" px-sm-2 pt-sm-1" style="font-size:16px; display: inline; font-family:proxima-nova,sans-serif Semibold;">My profile</h6>
+                        <img  class="px-sm-2 pt-sm-1" src="images/bag_3@2x.png" alt="bag" height=25px>
+                        <h6 class="px-sm-1 pt-sm-3" style="font-size: 16px; display: inline">0 items </h6>
+                        <label style="font-size:18px; display: inline; font-family:proxima-nova,sans-serif Semibold;color:#C1C8CE;">$0.00</label>
+                        <img  class="px-sm-4 pt-sm-1" src="images/search-icon@2x.png" alt="search" height=25px>
+                         </div>
+                    </div>
+                    </div>
+                    </div>
+                
+            </div>
+        </header>
+        <div class="major">
+        <div class="body"  style="background-color: white;">
+            <div class="container"  style="background-color: white;">
+                <div class="row">
+                  <div class="col-sm-12 px-sm-5 pt-sm-2">
+                      <h5 id="tag" class="px-sm-2"style="font-size:14px; display: inline; color: #33A0FF; sans-serif Semibold;"> Home &nbsp; /</h5>
+                      <h5 style="font-size:14px; display: inline; font-family:proxima-nova,sans-serif Semibold;">Accessories</h5>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">
+                <div class="row" style="display: flex;">
+                  <div class="col-sm-4 px-sm-5 py-sm-4" style="flex: auto;" >
+                      <div class="top-body py-sm-2" style="background-color: #F6F7F8;">
+                          <h4 class=" py-sm-2 px-sm-3" style="font-size:18px; display: inline; font-family:proxima-nova,sans-serif Semibold;">All CATEGORIES</h4>  
+                        <ul class="list-group" >
+                          <li class="list-group-item border-0 " id="list">
+                              <h5 class="menuitems" style="color:#33A0FF;">Accessories</h5>
+                            </li>
+                          <li class="list-group-item border-0 " id="list">
+                              <h5 class="menuitems">Cables and Docks</h5>
+                            </li>
+                          <li class="list-group-item border-0 " id="list">
+                              <h5 class="menuitems">Cases and Films</h5>
+                            </li>
+                          <li class="list-group-item border-0 " id="list">
+                              <h5 class="menuitems">Charging Devices</h5>
+                            </li>
+                          <li class="list-group-item border-0 " id="list">
+                              <h5 class="menuitems">Connected Home</h5>
+                            </li>
+                          <li class="list-group-item border-0 " id="list">
+                              <h5 class="menuitems">Headphones</h5>
+                            </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-sm-8 py-sm-4" style="flex: auto;" >
+                        <div style="background-color: #2E90E5;overflow:hidden;">
+                            <img style="float:right;" src="images/pic.png">
+                            <h2 class="image px-sm-4 pt-sm-4" style="">iPhone 8</h2>
+                            <h5 class="image px-sm-4 pt-sm-3">Performance and design taken right</h5>
+                            <h5 class="image px-sm-4 pt-sm-1">to the edge</h5>
+                            <h4 class="px-sm-4 pt-sm-4 pb-sm-5" style="text-decoration: underline; font-size: 18px; font-family:proxima-nova,sans-serif,Semibold; color:white;">SHOP NOW</h4>
+                            <br>
+                        </div>
+                      
+                    </div>
+                
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 px-sm-5 ">
+                    <div class="px-sm-3 py-sm-3" style="background-color: #F6F7F8;">
+                    <h4  style="background-color: #F6F7F8; font-size:18px; font-family: proxima-nova,sans-serif Semibold;">PRICES</h4><br>
+                    <label for="fname" style="display: inline;">Min</label>
+                    <label for="lname" style="float:right; display: inline;">Max</label><br>
+                    <input type="text" id="fname" name="fname" value="$499" style="max-width: 100px; color: #C1C8CE; border:none;">
+                    <label style="font-size: 20px;margin-left: 1.8vw">-</label>
+                    <input type="text" id="lname" name="lname" onclick="check()" value="$499" style="max-width: 100px; float:right; color: #C1C8CE; border:none;"><br> 
+                    <p id="demo" style="color: black;"></p>
+                </div>
+                 <div>
+                  <div class="colors px-sm-2" style="position: relative; background-color: #F6F7F8;  margin-top: 24px;">
+                    <div class="col-sm-4" >
+                    <div class="px-sm-2 py-sm-3 ">
+                    <h4 style=" font-size:18px; font-family: proxima-nova,sans-serif Semibold;">COLORS</h4><br>
+                    <div class="btn-group ">
+                    <button style="background-color: aqua;"></button>
+                    <button style="background-color: red"></button>
+                    <button style="background-color: black"></button>
+                    <button style="background-color: yellow"></button>
+                    <button style="background-color: pink"></button>
+                    <button style="background-color: gray"></button>
+
+                 </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                 <div class="brand"style="position:relative; background-color: #F6F7F8; margin-top: 24px;" >
+                    <div class="col-sm-11 py-sm-4" >
+                    <div >
+                      <h4 class="px-sm-3"style="font-size:18px; font-family: proxima-nova,sans-serif Semibold;">BRAND</h4>
+                          <ul class="list-group ">
+                          <li class="list-group-item border-0 " id="list1">
+                              <h4 class="menuitems" style="color:#33A0FF;">Apple</h4>
+                              <lable style="font-size:16px; font-family: proxima-nova,sans-serif Semibold; float:right;">99</lable>
+                         </li>
+                          <li class="list-group-item border-0 " id="list1">
+                              <h5 class="menuitems">Beats</h5>
+                              <lable style="font-size:16px; font-family: proxima-nova,sans-serif Semibold; float:right;">99</lable>
+                            </li>
+                          <li class="list-group-item border-0 " id="list1">
+                              <h5 class="menuitems">Samsung</h5>
+                             <lable style="font-size:16px; font-family: proxima-nova,sans-serif Semibold; float:right;">99</lable>
+                            </li>
+                          <li class="list-group-item border-0 " id="list1">
+                              <h5 class="menuitems">Siemens</h5>
+                              <label style="font-size:16px; font-family: proxima-nova,sans-serif Semibold; float:right;">99</label>
+                            </li>
+                        </ul>
+                    </div>
+                     </div>
+                   
+                  
+                </div>
+                </div>
+                    <div>
+                    <div style="position: relative; margin-top: 24px;">
+                    <div class="col-sm-12" >
+                        <div class=" py-sm-1" style="background-color: #F6F7F8; text-align: center;">
+                        <button type="button" class="btn px-sm-5" style="background-color: #F6F7F8; color:black;" >MORE</button>
+                        </div>
+                    </div>
+                         </div>
+                </div>
+                </div>
+                    <div class="col-sm-8" >
+                    <div>
+                    <div class="px-sm-1 py-sm-2" style="background-color: #F6F7F8;">
+                    <label class="px-sm-3"style="background-color: #F6F7F8; font-size:18px; font-family: proxima-nova,sans-serif">13 items</label>
+                    <label for="" class="px-sm-3" style="background-color: #F6F7F8; font-size:18px; font-family: proxima-nova,sans-serif"> Sort By</label> 
+                    <select name="cars" id="cars" style="border:none; background-color: white;">
+                        <option value="volvo">Name</option>
+                        <option value="saab">Value</option>
+                        
+                    </select>    
+                    <label for="" class="px-sm-4" style="background-color: #F6F7F8; font-size:18px; font-family: proxima-nova,sans-serif"> Show </label> 
+                    <select name="cars" id="cars"  style="border:none; background-color: white;">
+                            <option value="volvo">12</option>
+                            <option value="saab">12</option>
+                          
+                    </select>  
+                    </div>
+                    </div>
+                        <div>
+                        <div class="py-sm-1" >
+                        <div class="row">
+                        <div class="col-sm-4" >
+                        <div class="py-sm-2">
+                        <div style="border-style: solid; border-color: #F6F7F8;">
+                        <div style="text-align: center;">
+                        <img src="images/Rectangle%205.png"><br>
+                        <label >Apple MacBook Pro</label> <br>
+                        </div>
+                        <div style="text-align: center;">
+                        <span class="fa fa-star checked py-sm-3" ></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        </div>
+                            <div style="text-align: center;">
+                                <p class="px-sm-5 "style="background-color: white; font-size:18px; font-family: proxima-nova,sans-serif;color:deeppink; text-align: center;">$499 <del class="px-sm-2" style="color:#C1C8CE">$599</del></p>
+                            </div>
+                        </div>
+                        </div>    
+                        <div class="py-sm-2">
+                        <div style="border-style: solid;border-color: #F6F7F8;">
+                        <div style="text-align: center;">
+                        <img class="px-sm-4"src="images/Rectangle%205.png"><br>
+                        <label class="px-sm-4" style="justify-content: center; ">Apple MacBook Pro</label> <br>
+                        </div>
+                        <div style="text-align: center;">
+                        <span class="fa fa-star checked py-sm-3" ></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        </div>
+                        <div style="text-align: center;">
+                        <p class="px-sm-5 "style="background-color: white; font-size:18px; font-family: proxima-nova,sans-serif;color:deeppink; text-align: center;">$499 <del class="px-sm-2" style="color:#C1C8CE">$599</del></p>
+                            </div>
+                        </div>
+                        </div>    
+                        <div class="py-sm-2">
+                        <div style="border-style: solid;border-color: #F6F7F8;">
+                        <div style="text-align: center;">
+                            
+                        <img class="px-sm-4"src="images/Rectangle%205.png"><br>
+                        <label class="px-sm-4" style="justify-content: center; ">Apple MacBook Pro</label> <br>
+                            </div>
+                        <div style="text-align: center;">
+                        
+                        <span class="fa fa-star checked py-sm-3" ></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        </div>
+                        <div style="text-align: center;">
+                            
+                            <p class="px-sm-5 "style="background-color: white; font-size:18px; font-family: proxima-nova,sans-serif;color:deeppink; text-align: center;">$499 <del class="px-sm-2" style="color:#C1C8CE">$599</del></p></div>
+                        </div>
+                        </div>    
+                            <div class="py-sm-2">
+                        <div style="border-style: solid;border-color: #F6F7F8;">
+                        <div style="text-align: center;">
+                            
+                        <img class="px-sm-4"src="images/Rectangle%205.png"><br>
+                        <label class="px-sm-4" style="justify-content: center; ">Apple MacBook Pro</label> <br>
+                            </div>
+                        <div style="text-align: center;">
+                        <span class="fa fa-star checked py-sm-3" ></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        </div>
+                        <div style="text-align: center;">    
+                            <p class="px-sm-5 "style="background-color: white; font-size:18px; font-family: proxima-nova,sans-serif;color:deeppink; text-align: center;">$499 <del class="px-sm-2" style="color:#C1C8CE">$599</del></p></div>
+                        </div>
+                        </div>    
+                        </div>
+                        <div class="col-sm-4" >
+                        <div class="py-sm-2">
+                        <div style="border-style: solid;border-color: #F6F7F8;">
+                        <div style="text-align: center;">    
+                        <img class="px-sm-4"src="images/Rectangle%205.png"><br>
+                        <label class="px-sm-4" style="justify-content: center; ">Apple MacBook Pro</label> <br>
+                        </div>
+                        <div style="text-align: center;">
+                        <span class="fa fa-star checked py-sm-3" ></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        </div>
+                        <div style="text-align: center;">
+                        <p class="px-sm-5 "style="background-color: white; font-size:18px; font-family: proxima-nova,sans-serif;color:deeppink; text-align: center;">$499 <del class="px-sm-2" style="color:#C1C8CE">$599</del></p>
+                        </div>
+                        </div>
+                        </div>    
+                        <div class="py-sm-2">
+                        <div style="border-style: solid;border-color: #F6F7F8;">
+                        <div style="text-align: center;">
+                        <img class="px-sm-4"src="images/Rectangle%205.png"><br>
+                        <label class="px-sm-4" style="justify-content: center; ">Apple MacBook Pro</label> <br>
+                        </div>
+                        <div style="text-align: center;">
+                        <span class="fa fa-star checked py-sm-3" ></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        </div>
+                        <div style="text-align: center;">
+                            <p class="px-sm-5 "style="background-color: white; font-size:18px; font-family: proxima-nova,sans-serif;color:deeppink;text-align: center; text-align: center;">$499 <del class="px-sm-2" style="color:#C1C8CE">$599</del></p></div>
+                        </div>
+                        </div>    
+                        <div class="py-sm-2">
+                        <div style="border-style: solid;border-color: #F6F7F8;">
+                        <div style="text-align: center;">
+                        <img class="px-sm-4"src="images/Rectangle%205.png"><br>
+                        <label class="px-sm-4" style="justify-content: center; ">Apple MacBook Pro</label> <br>
+                        </div>
+                        <div style="text-align: center;">
+                        <span class="fa fa-star checked py-sm-3" ></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        </div>
+                        <div style="text-align: center;">    
+                            <p class="px-sm-5 "style="background-color: white; font-size:18px; font-family: proxima-nova,sans-serif;color:deeppink;text-align: center; text-align: center;">$499 <del class="px-sm-2" style="color:#C1C8CE">$599</del></p></div>
+                        </div>
+                        </div>    
+                         <div class="py-sm-2">
+                        <div style="border-style: solid;border-color: #F6F7F8;">
+                        <div style="text-align: center;">
+                        <img class="px-sm-4"src="images/Rectangle%205.png"><br>
+                        <label class="px-sm-4" style="justify-content: center; ">Apple MacBook Pro</label> <br>
+                            </div>
+                        <div style="text-align: center;">
+                        <span class="fa fa-star checked py-sm-3" ></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        </div>
+                        <div style="text-align: center;">
+                            <p class="px-sm-5 "style="background-color: white; font-size:18px; font-family: proxima-nova,sans-serif;color:deeppink; text-align: center;">$499 <del class="px-sm-2" style="color:#C1C8CE">$599</del></p></div>
+                        </div>
+                        </div>    
+                            
+                            
+                    </div>
+                            <div class="col-sm-4" >
+                        <div class="py-sm-2">
+                        <div style="border-style: solid;border-color: #F6F7F8;">
+                        <div style="text-align: center;">    
+                        <img class="px-sm-4"src="images/Rectangle%205.png"><br>
+                        <label class="px-sm-4" style="justify-content: center; ">Apple MacBook Pro</label> <br>
+                        </div>
+                        <div style="text-align: center;">
+                        <span class="fa fa-star checked py-sm-3" ></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        </div>
+                        <div style="text-align: center;">    
+                        <p class="px-sm-5 "style="background-color: white; font-size:18px; font-family: proxima-nova,sans-serif;color:deeppink; text-align: center;">$499 <del class="px-sm-2" style="color:#C1C8CE">$599</del></p></div>
+                        </div>
+                        </div>    
+                        <div class="py-sm-2">
+                        <div style="border-style: solid;border-color: #F6F7F8;">
+                        <div style="text-align: center;">
+    
+                        <img class="px-sm-4"src="images/Rectangle%205.png"><br>
+                        <label class="px-sm-4" style="justify-content: center; ">Apple MacBook Pro</label> <br>
+                            </div>
+                        <div style="text-align: center;">
+                        <span class="fa fa-star checked py-sm-3" ></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        </div>
+                        <div style="text-align: center;">    
+                            <p class="px-sm-5 "style="background-color: white; font-size:18px; font-family: proxima-nova,sans-serif;color:deeppink; text-align: center;">$499 <del class="px-sm-2" style="color:#C1C8CE">$599</del></p> </div>
+                        </div>
+                        </div>    
+                        <div class="py-sm-2">
+                        <div style="border-style: solid;border-color: #F6F7F8;">
+                        <div style="text-align: center;">    
+                        <img class="px-sm-4"src="images/Rectangle%205.png"><br>
+                        <label class="px-sm-4" style="justify-content: center; ">Apple MacBook Pro</label> <br>
+                        </div>
+                        <div style="text-align: center;">
+                        <span class="fa fa-star checked py-sm-3" ></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        </div>
+                        <div style="text-align: center;">    
+                            <p class="px-sm-5 "style="background-color: white; font-size:18px; font-family: proxima-nova,sans-serif;color:deeppink; text-align: center;">$499 <del class="px-sm-2" style="color:#C1C8CE">$599</del></p></div>
+                        </div>
+                        </div>    
+                         <div class="py-sm-2">
+                        <div style="border-style: solid;border-color: #F6F7F8;">
+                        <div style="text-align: center;">    
+                        <img class="px-sm-4"src="images/Rectangle%205.png"><br>
+                        <label class="px-sm-4" style="justify-content: center; ">Apple MacBook Pro</label> <br>
+                            </div>
+                        <div style="text-align: center;">
+                        <span class="fa fa-star checked py-sm-3" ></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star unchecked"></span>
+                        </div>
+                        <div style="text-align: center;">    
+                            <p class="px-sm-5 "style="background-color: white; font-size:18px; font-family: proxima-nova,sans-serif;color:deeppink; text-align: center;">$499 <del class="px-sm-2" style="color:#C1C8CE">$599</del></p></div>
+                        </div>
+                        </div>    
+                </div>
+                    </div>
+                    <div class="py-sm-3" style="text-align: center;">
+                          <div class="pagination  py-sm-3">
+                         <a href="#">1</a>
+                         <a href="#">2</a>
+                         <a class="active" href="#">3</a>
+                         <a href="#">4</a>
+                         <a href="#">5</a>
+                         <a href="#">6</a>
+                    </div>
+                        </div>
+       
+                        </div>
+
+                   </div>
+                       
+            </div>
+                    
+                </div>
+                
+            </div>
+                </div>
+        </div>
+        <div class="last" >
+            <div class="second" >
+            <div class="container">
+                <div class="row">
+                <div class="col-sm-4 px-sm-4 py-sm-4">
+                    <img src="images/beep@2x.png" height=60px>
+                    <p  class="px-sm-2 py-sm-3" style=" font-size:16px; font-family: proxima-nova,sans-serif Semibold;">Lorem ipsum is simply dummy text of the printing and typo setting industry .Lorem ipsum has been the industry's standard dummy text ever since the 1500s. when an unknown printer.</p>
+                </div>
+                <div class="col-sm-4 py-sm-4">
+                    <h4 class=" px-sm-2 pt-sm-4"style=" font-size:18px; font-family: proxima-nova,sans-serif Semibold;">Follow Us</h4>
+                    <p class=" px-sm-1 pt-sm-3"style=" font-size:16px; font-family: proxima-nova,sans-serif Semibold;">Since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                    <img class="px-sm-2" src="images/facebook.png">
+                    <img src="images/twitter.png" style="padding-left: 30px">
+                </div>
+                <div class="col-sm-4 py-sm-4">
+                    <h4 class="pt-sm-4" style=" font-size:18px; font-family: proxima-nova,sans-serif Semibold;">Contact Us</h4>
+                    <p style=" font-size:16px; font-family: proxima-nova,sans-serif Semibold;">My Company ,4578 Marmora Road ,Glassgow<br>D089GR<br>Call us now: 0123-456-789<br>Email:support@whatever.com</p>
+                    </div>
+            </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 px-sm-4">
+                        <h6 class="px-sm-1" style=" font-size:16px; font-family: proxima-nova,sans-serif Semibold; color: #C1C8CE">&#169;2021Ecommerce site by www.beep.com</h6>
+                    </div>
+                    <div class="col-sm-4 px-sm-5" style="text-align: end;">
+                        <img class="px-sm-1" src="images/Group%2019.png">
+                        <img class="px-sm-1" src="images/Paypal.png">
+                        <img class="px-sm-1" src="images/Shape%20328.png">
+                        <img class="px-sm-1" src="images/Western-union.png">
+                    </div>
+                </div>
+            </div>
+        </div> 
+        </div>
+            
+    
+
+    </body>
+    </html>

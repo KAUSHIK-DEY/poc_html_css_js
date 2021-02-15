@@ -1,0 +1,124 @@
+.header
+{
+    background-color: white;
+    height: 80px;
+}
+ul
+{
+    display:inline-grid;
+}
+.nav-item
+{
+    list-style-type: none;
+    float:left;
+    display: inline;
+}
+.nav-item1
+{
+    list-style-type: none;
+    float:left;
+    display: inline;
+
+}
+.headeroverlay
+{
+    display: inline;
+}
+.small
+{
+    display: inline;
+}
+.body
+{
+    background-color: white;
+}
+
+.top-body
+{
+    background-color: white;
+}
+.top-body-image
+{
+    background-color: #33A0FF;
+}
+.major
+{
+    background-color: white;
+    position: relative;
+}
+#list
+{
+    background-color: #F6F7F8;
+}
+#list1
+{
+    background-color: #F6F7F8;
+}
+.menuitems
+{
+    font-size:16px; 
+    display: inline; 
+    font-family:proxima-nova,sans-serif Semibold;
+}
+.image
+{
+    color:white;
+    font-family:proxima-nova,sans-serif;
+}
+.btn-group button { 
+  border-radius: 60%;
+  font-size: 30px; 
+  border: none;
+  padding: 12px; 
+  float: left; 
+  margin-right: 20px;    
+}
+.checked
+{
+    color: orange;
+}
+.unchecked
+{
+    color: #C1C8CE;
+}
+.pagination {
+  display: inline-block;
+  align-content: center;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: black;
+  color: white;
+}
+.side
+{
+    float:right;
+}
+.last
+{
+    position: relative;
+}
+.list-group :hover
+{
+    color: #33A0FF;
+}
+.btn-group button:hover
+{
+    border:3px solid red;
+    border-radius: 50%;
+    border-color: aqua;
+    border-collapse: separate;
+}
+.btn-group :visited
+{
+     border:3px solid red;
+    border-radius: 50%;
+    border-color: aqua;
+    border-collapse: separate;
+}
